@@ -9,3 +9,15 @@ Just First Header | But Second Header
 ------------ | -------------
 Why it so Ez | something worng
 Content in the first column | Content in the second column
+
+
+
+```
+
+if(true){
+    echo "Yeehaaa"
+}else{
+    echo "Awwwww"
+}
+
+```
