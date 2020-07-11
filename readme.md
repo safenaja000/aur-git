@@ -60,4 +60,17 @@ for i in range(l):
 # first = int(first)
 # second = int(second)
 
+ls1 = []    #เก็บ input ที่ได้รับทั้งหมด
+ls2 = []    #เก็บค่าที่มีมากกว่า 1
+for i in range(6):
+    x = input()
+    if(x in ls1):
+        print(ls2,'lsit2')
+    else:
+        ls2.append(x)
+        print(ls2,'list2 else')
+    ls1.append(x)
+
+
+
 ```
