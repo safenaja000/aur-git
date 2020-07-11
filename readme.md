@@ -14,10 +14,50 @@ Content in the first column | Content in the second column
 
 ```
 
-if(true){
-    echo "Yeehaaa"
-}else{
-    echo "Awwwww"
-}
+# thisIsSomeVariable = input()
+
+# print("Hello " + thisIsSomeVariable)
+import math
+
+l = int(input())
+for i in range(l):
+    point = input()
+    point = math.ceil(float(point))
+    if(point >= 80 and point <= 100 ):
+        print(str(point)+' Point.Your Grade is A')
+    elif(point >= 75 and point <= 79):
+        print(str(point)+' Point.Your Grade is B+')
+    elif(point >= 70 and point <= 74):
+        print(str(point)+' Point.Your Grade is B')
+    elif(point >= 65 and point <= 69):
+        print(str(point)+' Point. Your Grade is C+')
+    elif(point >= 60 and point <= 64):
+        print(str(point)+' Point.Your Grade is C')
+    elif(point >= 55 and point <= 59):
+        print(str(point)+' Point.Your Grade is D+')
+    elif(point >= 50 and point <= 54):
+        print(str(point)+' Point.Your Grade is D')
+    elif(point >= 0 and point <= 49):
+        print(str(point)+' Point.Your Grade is F')
+    else:
+        print('Invalid Score')
+
+
+# x = 0
+# while x < 10:
+#     if(x%2 == 0):
+#         print(x)
+#     x+=1
+
+# for x in range(0,10):
+#     if(x%2 == 0):
+#         print(x)
+#     x+=1
+
+# first = input()
+# second = input()
+# x = 0
+# first = int(first)
+# second = int(second)
 
 ```
